@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "description": "App.Services Class Library",
+  "authors": [ "Class Library template" ],
+  "tags": [""],
+  "projectUrl": "",
+  "licenseUrl": "",
+  
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1",
+    "PagedList": "1.17.0",
+    "App.Models": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Net.Http": "4.0.0.0",
+        "System.Net": "4.0.0.0"
+      }
+    }
+  }
+}

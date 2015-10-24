@@ -1,0 +1,51 @@
+﻿@* Sidebar, on the left in the backoffice *@
+<aside id="sidebar" class="sidebar-push-left">
+    <nav id="main-navigation">
+        <ul>
+            <li class="active">
+                <a href="@Url.Action("Index", "Home")" title="">
+                    <span class="fa fa-dashboard"></span>
+                    <span class="label-menu">Dashboard</span>
+                </a>
+            </li>
+            <li class="submenu">
+                <a href="#" title="">
+                    <span class="fa fa-calendar"></span>
+                    <span class="label-menu">Mediatheken</span>
+                    <span class="pull-right arrow fa fa-chevron-right"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="@Url.Action("Index", "Library")" title="All academicyears">
+                            <span class="label-menu">Alle mediatheken</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Create", "Library")" title="">
+                            <span class="label-menu">Nieuwe mediatheek</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#" title="">
+                    <span class="fa fa-newspaper-o"></span>
+                    <span class="label-menu">Posts</span>
+                    <span class="pull-right arrow fa fa-chevron-right"></span>
+                </a>
+                <ul>
+                    <li>                        
+                        <a href="@Url.Action("Index", "Post")" title="All posts">
+                            <span class="label-menu">Alle Posts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Create", "Post")" title="">
+                            <span class="label-menu">Nieuwe Post</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</aside>
